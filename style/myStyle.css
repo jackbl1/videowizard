@@ -56,12 +56,11 @@ body {
 }
 
 .logotext{
-    border: 2px solid lightgray;
     color: white;
     font-size: 38px;
     font-weight: bold;
-    font-family: sans-serif;
-    vertical-align: top
+    font-family: fantasy;
+    vertical-align: top;
 }
 
 .title{
