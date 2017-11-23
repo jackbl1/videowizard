@@ -1,103 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel = "stylesheet"
-        type = "text/css"
-        href = "style/myStyle.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel = "stylesheet" type = "text/css" href = "style/myStyle.css" />
 </head>
 <body>
 
 <div class="row">
                 
-        <div class="col-9 col-m-12">
+        <div class="col-5 col-m-12">
                 <div class="logotext">
                 <img src="images/logo.png" alt="logo">
                 VideoWizard
                 </div>
         </div>
-        <div class="col-1 col-m-4">
-            <img src="images/settings.png" alt="settings">
+        <div class="col-5 col-m-4">
+                <input type="text" name="search" placeholder="Search..">
         </div>
-        <div class="col-1 col-m-4">
-            <img src="images/notifications.png" alt="notifications">
-        </div>
-        <div class="col-1 col-m-4">
-            <img src="images/profile.png" alt="profile">
-        </div>
-</div>
-
-<div class="row">
-        <div class="col-4 col-m-12">
-                <div class="title">
-                        <h1>PERSONAL INFORMATION</h1>
-                </div>
-        </div>
-        <div class="col-4 col-m-6">
-                <form>
-                        First and last name:<br>
-                        <input type="text" name="name"><br>
-                        Birthday:<br>
-                        <input type="date" name="lastname"><br>
-                </form>
-                <form action="/action_page.php">
-                        Photo:<br>
-                        <input type="file" name="pic" accept="image/*">
-                </form>
-        </div>
-        <div class="col-4 col-m-6">
-                <form>
-                        E-mail:<br>
-                        <input type="email" name="e-mail"><br>
-                        Language:<br>
-                        <select id="language" name="language">
-                          <option value="English">English
-                          <option value="Spanish">Spanish
-                          <option value="French">French
-                          <option value="Chinese">Chinese
-                          <option value="Icelandic">Icelandic
-                        </select><br>
-                </form>
-                <img src="images/default.png" alt="default">
+        <div class="col-2 col-m-4">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary"><img src="images/settings.png" alt="settings"></button>
+                    <button type="button" class="btn btn-secondary"><img src="images/notifications.png" alt="notifications"></button>
+                    <button type="button" class="btn btn-secondary"><img src="images/profile.png" alt="profile"></button>
+            </div>
         </div>
 </div>
 
-</div class="row">
-        <div class="col-4 col-m-12">
-                <div class="title">
-                        <h1>BILLING INFORMATION</h1>
-                </div>
-        </div>
-        <div class="col-8 col-m-12">
-                <form>
-                        Address:<br>
-                        <input type="text" name="address"><br>
-                        Payment method:<br>
-                                <select id="payment" name="payment">
-                                  <option value="Credit Card">Credit Card
-                                  <option value="Debit Card">Debit Card
-                                  <option value="PayPal">PayPal
-                                </select><br>
-                        Number: 
-                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
-                        Valid thru: 
-                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                        Code:<br>
-                        <input type="text" name="number">
-                        <input type="number" name="month"> / <input type="number" name="day">
-                        <input type="number" name="code"><br><br><br>
-                </form>
-        </div>
-</div>
 <hr>
-<div class="footertext">
-        <a href="http://www.netflix.com">Netflix Home</a> 
-        |        
-        <a href="Assignment1-1.html">Subscribe</a>
+
+Insert home page here
+
+<hr>
+<div class="footertext">        
+        <a href="Subscribe Page">Subscribe</a>
         |
-        <a href="http://www.netflix.com">Contact Us</a>
+        <a href="Contact Us Page">Contact Us</a>
 </div>
 
 
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </html>
