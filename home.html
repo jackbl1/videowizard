@@ -1,2 +1,103 @@
-hey spencer 
-does this work
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "stylesheet"
+        type = "text/css"
+        href = "style/myStyle.css" />
+</head>
+<body>
+
+<div class="row">
+                
+        <div class="col-9 col-m-12">
+                <div class="logotext">
+                <img src="images/logo.jpg" alt="logo">
+                VideoWizard
+                </div>
+        </div>
+        <div class="col-1 col-m-4">
+                <a href="http://www.netflix.com">Home</a>
+        </div>
+        <div class="col-1 col-m-4">
+                <a href="http://www.netflix.com">Profile</a>
+        </div>
+        <div class="col-1 col-m-4">
+                <a href="http://www.netflix.com">Search</a>
+        </div>
+</div>
+
+<div class="row">
+        <div class="col-4 col-m-12">
+                <div class="title">
+                        <h1>PERSONAL INFORMATION</h1>
+                </div>
+        </div>
+        <div class="col-4 col-m-6">
+                <form>
+                        First and last name:<br>
+                        <input type="text" name="name"><br>
+                        Birthday:<br>
+                        <input type="date" name="lastname"><br>
+                </form>
+                <form action="/action_page.php">
+                        Photo:<br>
+                        <input type="file" name="pic" accept="image/*">
+                </form>
+        </div>
+        <div class="col-4 col-m-6">
+                <form>
+                        E-mail:<br>
+                        <input type="email" name="e-mail"><br>
+                        Language:<br>
+                        <select id="language" name="language">
+                          <option value="English">English
+                          <option value="Spanish">Spanish
+                          <option value="French">French
+                          <option value="Chinese">Chinese
+                          <option value="Icelandic">Icelandic
+                        </select><br>
+                </form>
+                <img src="images/default.png" alt="default">
+        </div>
+</div>
+
+</div class="row">
+        <div class="col-4 col-m-12">
+                <div class="title">
+                        <h1>BILLING INFORMATION</h1>
+                </div>
+        </div>
+        <div class="col-8 col-m-12">
+                <form>
+                        Address:<br>
+                        <input type="text" name="address"><br>
+                        Payment method:<br>
+                                <select id="payment" name="payment">
+                                  <option value="Credit Card">Credit Card
+                                  <option value="Debit Card">Debit Card
+                                  <option value="PayPal">PayPal
+                                </select><br>
+                        Number: 
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 
+                        Valid thru: 
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                        Code:<br>
+                        <input type="text" name="number">
+                        <input type="number" name="month"> / <input type="number" name="day">
+                        <input type="number" name="code"><br><br><br>
+                </form>
+        </div>
+</div>
+<hr>
+<div class="footertext">
+        <a href="http://www.netflix.com">Netflix Home</a> 
+        |        
+        <a href="Assignment1-1.html">Subscribe</a>
+        |
+        <a href="http://www.netflix.com">Contact Us</a>
+</div>
+
+
+</body>
+</html>
