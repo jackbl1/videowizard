@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-<link rel = "stylesheet" type = "text/css" href = "style/myStyle.css" />
+<link rel = "stylesheet" type = "text/css" href = "style/style.css" />
 </head>
 <body>
 <div class="container-fluid">
@@ -26,22 +26,48 @@
         </div>
 </div>
 </div>
-<div class="container-fluid recommendedvideos">
-        <div class="row">
-                Recommended Videos
-        </div> 
-        <div class="row">
-                <button type="button" class="btn"><img src="images/leftarrow.png" alt="leftarrow"></button>
-                <button type="button" class="btn"><img src="images/rightarrow.png" alt="rightarrow"></button>  
-        </div> 
+<div class="container-fluid">
+        <div class="col-md-12">
+                <div class= "recommendedvideosbox">
+                        <div class="row">
+                                Recommended Videos
+                        </div> 
+                        <div class="row">
+                                <div class="arrow col-md-0">
+                                        <button type="button" class="btn"><img src="images/leftarrow.png" alt="leftarrow"></button>
+                                </div>
+                                <div class="recommendedvideo col-md-5">  
+                                        <h1> Video 1
+                                                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                                <video id="div1" width="550" height="315" draggable="true" 
+                                                ondragstart="drag(event)" controls>
+                                                        <source src="imagesog/grayson_allen_highlights.mp4" type="video/mp4">
+                                                        <source src="imagesog/grayson_allen_highlights.ogg" type="video/ogg">
+                                                        Your browser does not support the video tag.
+                                                </video>
+                                                </div>
+                                        </h1>
+                                </div>
+                                <div class="recommendedvideo col-md-5"> 
+                                        <h1> Video 2
+                                                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                                <video id="div1" width="550" height="315" draggable="true" 
+                                                ondragstart="drag(event)" controls>
+                                                        <source src="imagesog/grayson_allen_highlights.mp4" type="video/mp4">
+                                                        <source src="imagesog/grayson_allen_highlights.ogg" type="video/ogg">
+                                                        Your browser does not support the video tag.
+                                                </video>
+                                                </div>
+                                        </h1>
+                                </div>
+                                <div class="arrow col-md-1">
+                                <button type="button" class="btn"><img src="images/rightarrow.png" alt="rightarrow"></button>  
+                                </div>
+                        </div> 
+                </div>
+        </div>
 </div>
 
-
-<hr>
-
-Insert home page here
-
-<hr>
 <div class="footertext">        
         <a href="Subscribe Page">Subscribe</a>
         |
