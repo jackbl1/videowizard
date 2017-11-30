@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<!-- <div id="myModal" class="modal">
+    <div class="modal-content">
+        <form name="modalform" id='modalform' onsubmit="checkCookie()">
+        Email:<br><br>
+        <input type="email" name="emailin"><br><br>
+        Password:<br><br>
+        <input type="password" name="passwordin"><br><br>
+        <input type="submit" value="Submit">
+        </form>       
+    </div>   
+</div> -->
+
+<!--Creates the header at the top of the webpage-->
+
+<div class="row">
+    
+<div class="col-md-2 logotext">
+    <img src="images/logo.png" alt="logo">
+    VideoWizard
+</div>
+<div class="col-md-8 container-fluid searchbar">
+    <input type="text" name="search" placeholder="Search..">
+</div>
+<div class="col-md-2">
+<div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary"><img src="images/settings.png" alt="settings"></button>
+        <button type="button" class="btn btn-secondary"><img src="images/notifications.png" alt="notifications"></button>
+        <button type="button" class="btn btn-secondary"><img src="images/profile.png" alt="profile"></button>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid recommendedvideos">
+<div class="row">
+    
+</div> 
+<div class="row">
+    <div class="video1">  
+        <h1> Video Title
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <video id="div1" width="550" height="315" draggable="true" 
+                ondragstart="drag(event)" controls>
+                    <source src="imagesog/grayson_allen_highlights.mp4" type="video/mp4">
+                    <source src="imagesog/grayson_allen_highlights.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </h1>
+        <div class ="row2">
+            <div class ="col1">
+                <h2 class= "video_descrip">
+                    The highlights of Grayson Allen from the 2016-17 season through games 1-11. 
+                    Grayson Allen is having another All-American season. 
+                    He is averaging 17.7 points, 3.8 assists and 4.8 rebounds.
+                </h2>
+                <h2>
+                        <button type="button" id="close-image" onClick="onClick1()">
+                            <img src="imagesog/heart.png"></button>
+                        <a id="clicks1"> 432 likes</a>
+                </h2>
+                <h2>
+                    <button type="button" id="close-image" onClick="onClick2()">
+                        <img src="imagesog/sharing_symbol.jpg"></button>
+                    <a id="clicks2"> 1000 sharing</a>
+                </h2>
+            </div>
+
+            <div class ="col2">
+                <button type="button" id="close-image" onClick="onClick1()">
+                    <img src="images/save_circle.png"></button> Add to a playlist
+                <br>
+                <br>
+                <button type="button" id="close-image" onClick="onClick1()">
+                    <img src="images/save-button.png"></button> Save to Favorites
+            </div>
+        </div>       
+    </div>
+    <!-- <button type="button" class="btn"><img src="images/leftarrow.png" alt="leftarrow"></button>
+    <button type="button" class="btn"><img src="images/rightarrow.png" alt="right arrow"></button> -->
+</div> 
+</div>
+
+<hr>
+
+Insert video page here
+
+<hr>
+<div class="footertext">        
+<a href="Subscribe Page">Subscribe</a>
+|
+<a href="Contact Us Page">Contact Us</a>
+</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</html>
+
+<!-- <div class="header">
+    <h1>VideoWizard
+        <div class="username">
+            @grayson_allen
+            <div class="headshot">
+                <img src="images/grayson_headshot.jpg" width="80" height="80"> 
+            </div>
+        </div>
+    </h1>
+</div>
+
+First horizontal box of the body containing one video
+<div class="video1">  
+    <h1>Grayson Allen 2017 junior Highlights
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <video id="div1" width="550" height="315" draggable="true" 
+            ondragstart="drag(event)" controls>
+                <source src="images/grayson_allen_highlights.mp4" type="video/mp4">
+                <source src="images/grayson_allen_highlights.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </h1>
+    <h2>
+        <button type="button" id="close-image" onClick="onClick1()">
+            <img src="images/heart.png"></button>
+        <a id="clicks1"> 432 likes</a>
+    </h2>
+    <h2>
+        <button type="button" id="close-image" onClick="onClick2()">
+            <img src="images/sharing_symbol.jpg"></button>
+        <a id="clicks2"> 1000 sharing</a>
+    </h2>
+    <h2>
+        The highlights of Grayson Allen from the 2016-17 season through games 1-11. 
+        Grayson Allen is having another All-American season. 
+        He is averaging 17.7 points, 3.8 assists and 4.8 rebounds.
+    </h2>
+</div>
+
+<br>
+
+Second horizontal box of body containing gallery of three videos
+<div class="video2">
+    <h1><u>Other Videos</u></h1>
+    <div class="gallery">
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <video id="div2" draggable="true" ondragstart="drag(event)" controls>
+                <source src="images/uncvduke.mp4" type="video/mp4">
+                <source src="images/uncvduke.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+            <div class="title"><b>North Carolina vs. Duke Basketball Highlights (2015-2016)</b>
+                <div class="dropdown">
+                    <button onclick="dropFunction1()" class="dropbtn">+</button>
+                    <div id="myDropdown1" class="dropdown-content">
+                        <p>2000 likes
+                        <br><br>
+                        4000 sharing
+                        <br><br>
+                        Highlights from the big rivalry game with Duke hosting UNC at 
+                        Cameron Indoor Stadium where UNC won 76-72.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class="gallery">
+        <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <video id="div3" draggable="true" ondragstart="drag(event)" controls>
+                <source src="images/allen_buzzer_beater.mp4" type="video/mp4">
+                <source src="images/allen_buzzer_beater.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+            <div class="title"><b>Grayson Allen's Buzzer Beater vs UVA (2/13/16)</b>
+                <div class="dropdown">
+                    <button onclick="dropFunction2()" class="dropbtn">+</button>
+                    <div id="myDropdown2" class="dropdown-content">
+                        <p>579 likes
+                        <br><br>
+                        5000 sharing
+                        <br><br>
+                        In an ACC rivalry gamee against UVA, Duke basketball player Grayson
+                        Allen hits a shot as time expires to give Duke the win. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="gallery">
+        <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <video id="div4" draggable="true" ondragstart="drag(event)" controls>
+                <source src="images/grayson_tripping.mp4" type="video/mp4">
+                <source src="images/grayson_tripping.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+            <div class="title"><b>Grayson Allen Tripping Compilation</b>
+                <div class="dropdown">
+                    <button onclick="dropFunction3()" class="dropbtn">+</button>
+                    <div id="myDropdown3" class="dropdown-content">
+                        <p>766 likes
+                        <br><br>
+                        6500 sharing
+                        <br><br>
+                        A couple of clips showing Duke basketball player Grayson Allen
+                        tripping other players intentionally.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+Footer of the page with links to three different websites
+<div class="footer">
+    <p>
+    <a href="https://www.facebook.com/groups/558651131001969/">Duke Memes Facebook</a> |
+    <a href="https://twitter.com/GraysonJAllen">Grayson Allen Twitter</a> |
+    <a href="https://sakai.duke.edu/">Sakai Copyright</a>
+    </p>
+</div>
+
+<script type = "text/javascript" src="script.js">
+</script>
+
+</body>
+</html> -->
