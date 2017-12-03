@@ -3,10 +3,11 @@
 }
 
 body {
-    background-image: url("../images/backimage.jpg");
+    background-image: url("../images/backimage2.jpeg");
     color: lightgray;
     size: 12px;
-    font-size: 16px;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
 
 .logotext{
