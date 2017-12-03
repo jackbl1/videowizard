@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("images/backimage2.jpeg");
+    background-image: url("../images/backimage2.jpeg");
     color: lightgray;
     size: 12px;
     margin-top: 0 !important;
