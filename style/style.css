@@ -6,6 +6,7 @@ body {
     background-image: url("../images/backimage.jpg");
     color: lightgray;
     size: 12px;
+    font-size: 16px;
 }
 
 .logotext{
@@ -13,6 +14,10 @@ body {
     font-size: 24px;
     font-family: fantasy;
     vertical-align: top;
+}
+
+.titletext{
+    font-size: 36px;
 }
 
 .container-fluid{
@@ -43,8 +48,8 @@ body {
     border:  2px solid white;
     padding: 10px 10px 10px 10px;
     color: black;
-    margin: 50px 10px 10px 10px;
-    width: 100%    !important;
+    margin: 30px 10px 10px 10px;
+    /*width: 100%    !important;*/
     height: auto   !important;
 }
 
@@ -125,6 +130,137 @@ select{
 
 .footertext a:link {
     text-decoration: none
+}
+
+/* ---------- LIVE-CHAT ---------- */
+
+.livechatbox{
+    margin-top: 24px;
+    background-color: rgb(192, 220, 213);
+    border: 2px solid rgb(131, 168, 192);
+    color: black;
+}
+
+#live-chat {
+    margin-top: 12px;
+	font-size: 12px;
+	width: 300px;
+}
+
+#live-chat h4 {
+	font-size: 12px;
+}
+
+#live-chat h5 {
+	font-size: 10px;
+}
+
+#live-chat form {
+	padding: 24px;
+}
+
+#live-chat input[type="text"] {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 8px;
+	outline: none;
+    width: 234px;
+    margin-bottom: 12px;
+}
+
+.chat-message-counter {
+	background: #e62727;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: none;
+	font-size: 12px;
+	font-weight: bold;
+	height: 28px;
+	left: 0;
+	line-height: 28px;
+	margin: -15px 0 0 -15px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 28px;
+}
+
+.chat {
+	background: #fff;
+}
+
+.chat-history {
+	height: 252px;
+	padding: 8px 24px;
+	overflow-y: scroll;
+}
+
+.chat-message {
+	margin: 16px 0;
+}
+
+.chat-message img {
+	border-radius: 50%;
+	float: left;
+}
+
+.chat-message-content {
+	margin-left: 56px;
+}
+
+.chat-time {
+	float: right;
+	font-size: 10px;
+}
+
+.chat-feedback {
+	font-style: italic;	
+	margin: 0 0 0 80px;
+}
+
+/* ----- PLAYLIST ----- */
+
+.playlistbox{
+    margin-top: 24px;
+    background-color: rgb(220, 192, 203);
+    border: 2px solid rgb(192, 131, 154);
+    color: black;
+}
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
 }
 
 /*     background-color: gray;
