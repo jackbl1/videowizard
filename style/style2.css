@@ -1,0 +1,546 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/backimage2.jpeg");
+    color: lightgray;
+    size: 12px;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+.title{
+  color:white;
+}
+/*
+body {
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+*/
+.logotext{
+    color: white;
+    font-size: 24px;
+    font-family: fantasy;
+    vertical-align: top;
+}
+
+.container-fluid{
+
+}
+
+.searchbar{
+    width: 230px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+
+}
+
+.search{
+  display: block;
+  margin: auto;
+  
+}
+
+.recommendedvideosbox{
+    background-color: #DCD0C0;
+    border: 2px solid #C0B283;
+    color: black;
+}
+
+.recommendedvideo{
+    font-size: 16px;
+    border:  2px solid white;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    margin: 0px 10px 10px 10px;
+    width: 100%    !important;
+    height: auto   !important;
+}
+
+.arrow{
+    margin: auto;
+    display: block;
+}
+
+.video1 {
+    border:  2px solid white;
+    padding: 10px 10px 200px 40px;
+    color: black;
+    margin: 20px 30px 10px 20px;
+    width: 50%;
+}
+
+button {
+    background-color: white;
+}
+
+#close-image img {
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+
+#clicks1 {
+    font-size: 20px;
+}
+
+#clicks2 {
+    font-size: 20px;
+}
+
+.col1 {
+    float: left;
+    width: 70%;
+}
+.col2 {
+    float: right;
+    width: 30%;
+}
+
+.video_descrip {
+    font-size: 20px;
+}
+
+a:link {
+    color: white;
+    font-size: 12px;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: lightblue;
+}
+
+a:active {
+    color: blue;
+}
+
+select{
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    color: black;
+    box-sizing: border-box;
+}
+
+.footertext{
+    text-align: center;
+    size: 12px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid lightgray;
+}
+
+.footertext a:link {
+    text-decoration: none
+}
+
+
+body {
+    padding-top: 90px;
+}
+.mainHolder{
+  background-color: white;
+  border-radius: 25px;
+  padding-top: 10px;
+}
+.panel-login {
+	border-color: #ccc;
+}
+.panel-login>.panel-heading {
+	color: #00415d;
+	background-color: #fff;
+	border-color: #fff;
+	text-align:center;
+}
+.panel-login>.panel-heading a{
+	text-decoration: none;
+  font-size: 16px;
+	color: #666;
+	font-weight: bold;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+	color: #029f5b;
+	font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	height: 45px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+	outline:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-color: #ccc;
+}
+.btn-login {
+	background-color: #59B2E0;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #59B2E6;
+}
+.btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #53A3CD;
+	border-color: #53A3CD;
+}
+.forgot-password {
+	text-decoration: underline;
+	color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: underline;
+	color: #666;
+}
+
+.btn-register {
+	background-color: #1CB94E;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #1CB94A;
+}
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color: #1CA347;
+	border-color: #1CA347;
+}
+/*     background-color: gray;
+}
+.header {
+    border: 10px solid #1100FF;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    font-size: 30px;
+    overflow: auto;
+}
+.header_img {
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+.username {
+    float: right;
+    font-size: 40px;
+}
+.headshot {
+    float: right;
+    margin: 0px 20px 0px 20px;
+}
+.video1 {
+    border: 3px solid white;
+    padding: 10px 10px 200px 40px;
+    color: black;
+    margin: 50px 30px 10px 50px;
+}
+button {
+    background-color: white;
+}
+#close-image img {
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+video {
+    float:right;
+    margin: 30px 20px 50px 30px;
+}
+.video2 {
+    border: 3px solid white;
+    padding: 30px 10px 150px 40px;
+    color: black;
+    margin: 50px 30px 10px 50px;
+    overflow: auto;
+}
+.gallery {
+    margin: -20px 20px 150px 50px;
+    float: left;
+    width: 350px;
+}
+.gallery video {
+    width: 100%;
+    height: 220px;
+}
+.title {
+    font-size: 19px;
+    text-align: left;
+}
+.modal {
+    display: initial;
+    position: fixed; Stay in place
+    /* z-index: 1; Sit on top
+    left: 0;
+    top: 0;
+    width: 100%; Full width
+    height: 100%; Full height
+    overflow: auto; Enable scroll if needed
+    background-color: rgb(0,0,0); Fallback color
+    background-color: rgba(143, 143, 143, 0.4); Black w/ opacity
+}
+Modal Content/Box
+.modal-content {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 15% auto; 15% from the top and centered
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: green;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    padding: 5px;
+    position: absolute;
+    background-color: white;
+    min-width: 250px;
+    overflow: auto;
+    right: 0;
+    z-index: 1;
+}
+.show {
+    display: block;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+#div1 {
+    float: right;
+    width: 550px;
+    height: 330px;
+}
+#div2 {
+    float: right;
+    width: 400px;
+    height: 300px;
+    border:1px solid #aaaaaa;
+}
+#div3 {
+    float: right;
+    width: 400px;
+    height: 300px;
+    border:1px solid #aaaaaa;
+}
+#div4 {
+    float: right;
+    width: 400px;
+    height: 300px;
+    border:1px solid #aaaaaa;
+}
+*/
+/*     background-color: gray;
+}
+.header {
+    border: 10px solid #1100FF;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    font-size: 30px;
+    overflow: auto;
+}
+.header_img {
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+.username {
+    float: right;
+    font-size: 40px;
+}
+.headshot {
+    float: right;
+    margin: 0px 20px 0px 20px;
+}
+.video1 {
+    border: 3px solid white;
+    padding: 10px 10px 200px 40px;
+    color: black;
+    margin: 50px 30px 10px 50px;
+}
+button {
+    background-color: white;
+}
+#close-image img {
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+video {
+    float:right;
+    margin: 30px 20px 50px 30px;
+}
+.video2 {
+    border: 3px solid white;
+    padding: 30px 10px 150px 40px;
+    color: black;
+    margin: 50px 30px 10px 50px;
+    overflow: auto;
+}
+.gallery {
+    margin: -20px 20px 150px 50px;
+    float: left;
+    width: 350px;
+}
+.gallery video {
+    width: 100%;
+    height: 220px;
+}
+.title {
+    font-size: 19px;
+    text-align: left;
+}
+.modal {
+    display: initial;
+    position: fixed; Stay in place
+    /* z-index: 1; Sit on top
+    left: 0;
+    top: 0;
+    width: 100%; Full width
+    height: 100%; Full height
+    overflow: auto; Enable scroll if needed
+    background-color: rgb(0,0,0); Fallback color
+    background-color: rgba(143, 143, 143, 0.4); Black w/ opacity
+}
+Modal Content/Box
+.modal-content {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 15% auto; 15% from the top and centered
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: green;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    padding: 5px;
+    position: absolute;
+    background-color: white;
+    min-width: 250px;
+    overflow: auto;
+    right: 0;
+    z-index: 1;
+}
+.show {
+    display: block;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+#div1 {
+    float: right;
+    width: 550px;
+    height: 330px;
+}
+#div2 {
+    float: right;
+    width: 400px;
+    height: 300px;
+    border:1px solid #aaaaaa;
+}
+#div3 {
+    float: right;
+    width: 400px;
+    height: 300px;
+    border:1px solid #aaaaaa;
+}
+#div4 {
+    float: right;
+    width: 400px;
+    height: 300px;
+    border:1px solid #aaaaaa;
+}
+*/
