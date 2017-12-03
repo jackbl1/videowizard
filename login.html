@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel = "stylesheet" type = "text/css" href = "style2.css" />
+</head>
+
+<body>
+<div class="container-fluid">
+<div class="row">
+
+        <div class="col-md-2 logotext">
+                <img src="images/logo.png" alt="logo">
+                VideoWizard
+        </div>
+        <div class="col-md-8 container-fluid searchbar">
+                <input class ="search" type="text" name="search" placeholder="Search..">
+        </div>
+        <div class="col-md-2">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary"><img src="images/settings.png" alt="settings"></button>
+                    <button type="button" class="btn btn-secondary"><img src="images/notifications.png" alt="notifications"></button>
+                    <button type="button" class="btn btn-secondary"><img src="images/profile.png" alt="profile"></button>
+            </div>
+        </div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<div class="row">
+    <div class="col-md-4 place holder">
+        <div class="placeholder">
+        </div>
+    </div>
+    <div class="col-md-6 login">
+            <h1 class="title"> Sign in to VideoWizard
+
+    </div>
+    <div class="col-md-2 placeholder">
+        <div class="placeholder">
+        </div>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="container">
+    	<div class="row">
+			<div class="col mainHolder">
+				<div class="panel panel-login">
+					<div class="panel-heading">
+						<div class="row">
+							<div class="col">
+                  <a href="#" class="active" id="login-form-link">Login</a>
+							</div>
+							<div class="col">
+								<a href="#" id="register-form-link">Register</a>
+							</div>
+						</div>
+						<hr>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-lg-12">
+								<form id="login-form" action="https://phpoll.com/login/process" method="post" role="form" style="display: block;">
+									<div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+									</div>
+									<div class="form-group">
+										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+									</div>
+									<div class="form-group text-center">
+										<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+										<label for="remember"> Remember Me</label>
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col">
+												<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-lg-12">
+												<div class="text-center">
+													<a href="https://phpoll.com/recover" tabindex="5" class="forgot-password">Forgot Password?</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</form>
+								<form id="register-form" action="https://phpoll.com/register/process" method="post" role="form" style="display: none;">
+									<div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+									</div>
+									<div class="form-group">
+										<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+									</div>
+									<div class="form-group">
+										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+									</div>
+									<div class="form-group">
+										<input type="password" name="confirm-password" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password">
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col">
+												<input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Register Now">
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <br>
+  <br>
+<!--
+          <div class="container-fluid">
+          <div class="col-md-12">
+                <div class= "recommendedvideosbox">
+                        <div class="row">
+                                Recommended Videos
+                        </div>
+                        <div class="row">
+                                <div class="arrow col-md-0">
+                                        <button type="button" class="btn"><img src="images/leftarrow.png" alt="leftarrow"></button>
+                                </div>
+                                <div class="recommendedvideo col-md-5">
+                                        <h1> Video 1
+                                                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                                <video id="div1" width="550" height="315" draggable="true"
+                                                ondragstart="drag(event)" controls>
+                                                        <source src="imagesog/grayson_allen_highlights.mp4" type="video/mp4">
+                                                        <source src="imagesog/grayson_allen_highlights.ogg" type="video/ogg">
+                                                        Your browser does not support the video tag.
+                                                </video>
+                                                </div>
+                                        </h1>
+                                </div>
+                                <div class="recommendedvideo col-md-5">
+                                        <h1> Video 2
+                                                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                                                <video id="div1" width="550" height="315" draggable="true"
+                                                ondragstart="drag(event)" controls>
+                                                        <source src="imagesog/grayson_allen_highlights.mp4" type="video/mp4">
+                                                        <source src="imagesog/grayson_allen_highlights.ogg" type="video/ogg">
+                                                        Your browser does not support the video tag.
+                                                </video>
+                                                </div>
+                                        </h1>
+                                </div>
+                                <div class="arrow col-md-1">
+                                <button type="button" class="btn"><img src="images/rightarrow.png" alt="rightarrow"></button>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</div>
+-->
+
+<div class="footertext">
+        <a href="Subscribe Page">Subscribe</a>
+        |
+        <a href="Contact Us Page">Contact Us</a>
+</div>
+
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script2.js"></script>
+</html>
