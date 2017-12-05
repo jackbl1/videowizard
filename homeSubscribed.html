@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel = "stylesheet" type = "text/css" href = "style/style.css" />
+</head>
+<body>
+<div class="container-fluid">
+        <div class="row">
+                <div class="col-md-2 logotext">
+                        <img src="images/logo.png" alt="logo">
+                        VideoWizard
+                </div>
+                <div class="col-md-8 container-fluid searchbar">
+                        <input type="text" name="search" placeholder="Search..">
+                </div>
+                <div class="col-md-2">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary"><img src="images/settings.png" alt="settings"></button>
+                        <button type="button" class="btn btn-secondary"><img src="images/notifications.png" alt="notifications"></button>
+                        <button type="button" class="btn btn-secondary"><img src="images/profile.png" alt="profile"></button>
+                </div>
+                </div>
+        </div>
+</div>
+<div class="container-fluid">
+    <div class= "recommendedvideosbox">
+        <div class="row">
+                <div class="col titletext">
+                Recommended Videos
+                </div>
+        </div> 
+        <div class="row">
+            <div class="arrow col-md-1">
+                    <button type="button" class="btn"><img src="images/leftarrow.png" alt="leftarrow"></button>
+            </div>
+            <div class="recommendedvideo col-md-3">  
+                    Video 1
+                    <iframe width="360" height="216" src="https://www.youtube.com/embed/gxcaRe53vsQ?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="recommendedvideo col-md-3"> 
+                    Video 2
+                    <iframe width="360" height="216" src="https://www.youtube.com/embed/Y6qEERy0wL8?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="recommendedvideo col-md-3"> 
+                    Video 3
+                    <iframe width="360" height="216" src="https://www.youtube.com/embed/MbRm5s3i2ik?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>                
+            </div>
+            <div class="arrow col-md-1">
+            <button type="button" class="btn"><img src="images/rightarrow.png" alt="rightarrow"></button>  
+            </div>
+        </div> 
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class ="col-4 livechatbox">
+            <div id="live-chat"> 
+                <header class="clearfix">
+                        <span class="chat-message-counter">3</span>
+                            Member's Chat
+                            </header>
+                            <div class="chat">
+                                <div class="chat-history">
+                                        <div class="chat-message clearfix">
+                                                <img src="http://lorempixum.com/32/32/people" alt="" width="32" height="32">
+                                                <div class="chat-message-content clearfix">     
+                                                        <span class="chat-time">13:35</span>
+                                                        <h5>Member1</h5>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, explicabo quasi ratione odio dolorum harum.</p>
+                                                </div> <!-- end chat-message-content -->
+                                        </div> <!-- end chat-message -->
+        
+                                        <hr>
+        
+                                        <div class="chat-message clearfix"></div>
+                                                <div class="chat-message-content clearfix">
+                                                        <span class="chat-time">13:38</span>
+                                                        <h5>Member2</h5>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                                                </div> <!-- end chat-message-content -->
+                                        </div> <!-- end chat-message -->
+        
+                                        <hr>
+        
+                                </div> <!-- end chat-history -->
+                                    <fieldset>
+                                        <input type="text" placeholder="Type your message…" autofocus>
+                                        <input type="hidden">
+                                    </fieldset>
+                                </form>
+                            </div> <!-- end chat -->
+                    </div> <!-- end live-chat -->
+            <div class="col-7 playlistbox">
+                Playlists
+                <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'Playlist1')">Playlist1</button>
+                <button class="tablinks" onclick="openCity(event, 'Playlist2')">Playlist2</button>
+                <button class="tablinks" onclick="openCity(event, 'Playlist3')">Playlist3</button>
+                </div>
+                
+                <div id="Playlist1" class="tabcontent">
+                <h3>Playlist1</h3>
+                        <div class="recommendedvideo">
+                                <iframe width="360" height="216" src="https://www.youtube.com/embed/qQTVuRrZO8w?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                        </div>
+                </div>
+                
+                <div id="Playlist2" class="tabcontent">
+                <h3>Playlist2</h3>
+                        <div class="recommendedvideo">
+                                <iframe width="360" height="216" src="https://www.youtube.com/embed/UXm1xHECZu0?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                        </div>
+                </div>
+                
+                <div id="Playlist3" class="tabcontent">
+                <h3>Playlist3</h3>
+                        <div class="recommendedvideo">
+                                <iframe width="360" height="216" src="https://www.youtube.com/embed/DePRyZE5sn4?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                        </div>
+                </div>
+            </div>       
+        </div>
+</div>
+
+<div class="footertext">        
+        <a href="login.html">Subscribe</a>
+        |
+        <a href="Contact Us Page">Contact Us</a>
+</div>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="script/homescript.js"></script>
+</html>
