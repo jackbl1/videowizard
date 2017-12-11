@@ -22,11 +22,14 @@ body {
     text-align: center;
 }
 
-.searchbar{
-    box-sizing: border-box;
-    font-size: 16px;
-    vertical-align: center;
-    padding-top: 16px;
+.search{
+    margin-top: 16px;
+    display: block;
+    margin: auto;
+}
+
+.btn{
+    margin-top: 16px;
 }
 
 .toolbarbox{

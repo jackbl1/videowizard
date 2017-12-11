@@ -9,16 +9,11 @@ body {
     margin-top: 0 !important;
     padding-top: 0 !important;
 }
+
 .title{
   color:white;
 }
-/*
-body {
-    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-}
-*/
+
 .logotext{
     color: white;
     font-size: 24px;
@@ -26,27 +21,14 @@ body {
     vertical-align: top;
 }
 
-.container-fluid{
-
-}
-
-.searchbar{
-    width: 230px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-image: url('searchicon.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-
-}
-
 .search{
-  display: block;
-  margin: auto;
-  
+    margin-top: 16px;
+    display: block;
+    margin: auto;
+}
+
+.btn{
+    margin-top: 16px;
 }
 
 .recommendedvideosbox{
