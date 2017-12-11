@@ -15,20 +15,20 @@ body {
     vertical-align: top;
 }
 
-.container-fluid{
-    margin-top:12px;
+.search{
+    margin-top: 16px;
+    display: block;
+    margin: auto;
 }
 
-.searchbar{
-    width: 230px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-image: url('searchicon.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
+.btn{
+    margin-top: 16px;
+}
+
+.toolbarbox{
+    margin-top: 12px;
+    background-color: rgb(194, 220, 192);
+    border: 2px solid rgb(136, 192, 131);
 }
 
 .recommendedvideosbox{
