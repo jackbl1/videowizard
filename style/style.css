@@ -19,22 +19,20 @@ body {
 
 .titletext{
     font-size: 36px;
-}
-
-.container-fluid{
-    margin-top:12px;
+    text-align: center;
 }
 
 .searchbar{
-    width: 230px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
     font-size: 16px;
-    background-image: url('searchicon.png');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
+    vertical-align: center;
+    padding-top: 16px;
+}
+
+.toolbarbox{
+    margin-top: 12px;
+    background-color: rgb(194, 220, 192);
+    border: 2px solid rgb(136, 192, 131);
 }
 
 .recommendedvideosbox{
@@ -46,11 +44,9 @@ body {
 
 .recommendedvideo{
     font-size: 16px;
-    border:  2px solid white;
     padding: 10px 10px 10px 10px;
     color: black;
     margin: 30px 10px 10px 10px;
-    /*width: 100%    !important;*/
     height: auto   !important;
 }
 
@@ -287,7 +283,4 @@ div.tab button.active {
     width: 100%;
     background-repeat:no-repeat;
     background-position:center;
-  /*  position:absolute;
-    top: 0px;
-    left: 0px;*/
 }
