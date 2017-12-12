@@ -36,16 +36,15 @@ body {
 .currentvideobox{
     margin-top: 36px;
     margin-left: 12px;
+    padding: 20px 0px 0px 20px;
     background-color: #C4DFE6;
     color: black;
 }
 
 .relatedvideobox{
     margin-top: 36px;
-    margin-left: 12px;
-    background-color: rgb(192, 194, 220);
-    border: 2px solid rgb(132, 131, 192);
-    color: black;
+    margin-left: 30px;
+    color: white;
 }
 
 .arrow{
@@ -147,14 +146,14 @@ body {
 }
 
 a:link {
-    color: white;
-    font-size: 12px;
+    color: gray;
+    font-size: 13px;
 }
 a:visited {
-    color: gray;
+    color: white;
 }
 a:hover {
-    color: lightblue;
+    color: black;
 }
 
 a:active {
