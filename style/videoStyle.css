@@ -38,40 +38,14 @@ body {
     color: black;
 }
 
-.recommendedvideo{
-    font-size: 16px;
-    border:  2px solid white;
-    padding: 10px 10px 10px 10px;
-    color: black;
-    margin: 50px 10px 10px 10px;
-    width: 100%    !important;
-    height: auto   !important;
-}
-
 .arrow{
     margin: auto;
     display: block;
 }
 
-.video1 {
-    border:  2px solid blue;
-    padding: 10px 10px 200px 40px;
-    font-family: albertus;
-    color: black;
-    float: left;
-    width: 50%;
-}
-
-.video2 {
-    border:  2px solid blue;
-    padding: 10px 10px 200px 40px;
-    color: black;
-    float: right;
-    width: 50%;
-}
-
-button {
-    background-color: white;
+.vidbtn{
+    margin-left: 24px;
+    margin-top: 8px;
 }
 
 #close-image img {
@@ -80,35 +54,89 @@ button {
     width: 30px;
 }
 
-#clicks1 {
-    font-size: 20px;
+.read_more{
+    text-decoration:none;
+}
+.more_text{
+    display: none;
 }
 
-#clicks2 {
-    font-size: 20px;
+#live-chat {
+    margin-left: 16px;
+    margin-top: 12px;
+	font-size: 12px;
+	width: 300px;
 }
 
-.bigcol1 {
-    float: left;
-    width: 100%;
+#live-chat h4 {
+	font-size: 12px;
 }
 
-.bigcol2 {
-    float: right;
-    width: 100%;
+#live-chat h5 {
+	font-size: 10px;
 }
 
-.col1 {
-    float: left;
-    width: 70%;
-}
-.col2 {
-    float: right;
-    width: 30%;
+#live-chat form {
+	padding: 24px;
 }
 
-.video_descrip {
-    font-size: 20px;
+#live-chat input[type="text"] {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 8px;
+	outline: none;
+    width: 234px;
+    margin-bottom: 12px;
+}
+
+.chat-message-counter {
+	background: #e62727;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: none;
+	font-size: 12px;
+	font-weight: bold;
+	height: 28px;
+	left: 0;
+	line-height: 28px;
+	margin: -15px 0 0 -15px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 28px;
+}
+
+.chat {
+	background: #fff;
+}
+
+.chat-history {
+	height: 252px;
+	padding: 8px 24px;
+	overflow-y: scroll;
+}
+
+.chat-message {
+	margin: 16px 0;
+}
+
+.chat-message img {
+	border-radius: 50%;
+	float: left;
+}
+
+.chat-message-content {
+	margin-left: 56px;
+}
+
+.chat-time {
+	float: right;
+	font-size: 10px;
+}
+
+.chat-feedback {
+	font-style: italic;	
+	margin: 0 0 0 80px;
 }
 
 a:link {
@@ -145,350 +173,3 @@ select{
 .footertext a:link {
     text-decoration: none
 }
-
-/*     background-color: gray;
-}
-
-.header {
-    border: 10px solid #1100FF;
-    color: white;
-    padding: 10px 10px 10px 10px;
-    font-size: 30px;
-    overflow: auto;
-}
-
-.header_img {
-    float: left;
-    margin: 0px 0px 0px 0px;
-}
-
-.username {
-    float: right;
-    font-size: 40px;
-}
-
-.headshot {
-    float: right;
-    margin: 0px 20px 0px 20px;
-}
-
-.video1 {
-    border: 3px solid white;
-    padding: 10px 10px 200px 40px;
-    color: black;
-    margin: 50px 30px 10px 50px;
-}
-
-button {
-    background-color: white;
-}
-
-#close-image img {
-    display: block;
-    height: 30px;  
-    width: 30px;
-}
-
-video {      
-    float:right;
-    margin: 30px 20px 50px 30px;
-}
-
-.video2 {
-    border: 3px solid white;
-    padding: 30px 10px 150px 40px;
-    color: black;
-    margin: 50px 30px 10px 50px;
-    overflow: auto;
-}
-
-.gallery {
-    margin: -20px 20px 150px 50px;
-    float: left;
-    width: 350px;
-}
-
-.gallery video {
-    width: 100%;
-    height: 220px;
-}
-
-.title {
-    font-size: 19px;
-    text-align: left;
-}
-
-.modal {
-    display: initial;
-    position: fixed; Stay in place
-    /* z-index: 1; Sit on top
-    left: 0;
-    top: 0;
-    width: 100%; Full width
-    height: 100%; Full height
-    overflow: auto; Enable scroll if needed
-    background-color: rgb(0,0,0); Fallback color
-    background-color: rgba(143, 143, 143, 0.4); Black w/ opacity
-}
-
-Modal Content/Box
-.modal-content {
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    margin: 15% auto; 15% from the top and centered
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size
-}
-
-.dropbtn {
-    background-color: black;
-    color: white;
-    padding: 5px;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 50%;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-    background-color: green;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    padding: 5px;
-    position: absolute;
-    background-color: white;
-    min-width: 250px;
-    overflow: auto;
-    right: 0;
-    z-index: 1;
-}
-
-.show {
-    display: block;
-}
-
-a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:visited {
-    color:white;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:hover {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-#div1 {
-    float: right;
-    width: 550px;
-    height: 330px;
-}
-
-#div2 {
-    float: right;
-    width: 400px;
-    height: 300px;
-    border:1px solid #aaaaaa;
-}
-
-#div3 {
-    float: right;
-    width: 400px;
-    height: 300px;
-    border:1px solid #aaaaaa;
-}
-
-#div4 {
-    float: right;
-    width: 400px;
-    height: 300px;
-    border:1px solid #aaaaaa;
-}
-*/
-/*     background-color: gray;
-}
-
-.header {
-    border: 10px solid #1100FF;
-    color: white;
-    padding: 10px 10px 10px 10px;
-    font-size: 30px;
-    overflow: auto;
-}
-
-.header_img {
-    float: left;
-    margin: 0px 0px 0px 0px;
-}
-
-.username {
-    float: right;
-    font-size: 40px;
-}
-
-.headshot {
-    float: right;
-    margin: 0px 20px 0px 20px;
-}
-
-.video1 {
-    border: 3px solid white;
-    padding: 10px 10px 200px 40px;
-    color: black;
-    margin: 50px 30px 10px 50px;
-}
-
-button {
-    background-color: white;
-}
-
-#close-image img {
-    display: block;
-    height: 30px;  
-    width: 30px;
-}
-
-video {      
-    float:right;
-    margin: 30px 20px 50px 30px;
-}
-
-.video2 {
-    border: 3px solid white;
-    padding: 30px 10px 150px 40px;
-    color: black;
-    margin: 50px 30px 10px 50px;
-    overflow: auto;
-}
-
-.gallery {
-    margin: -20px 20px 150px 50px;
-    float: left;
-    width: 350px;
-}
-
-.gallery video {
-    width: 100%;
-    height: 220px;
-}
-
-.title {
-    font-size: 19px;
-    text-align: left;
-}
-
-.modal {
-    display: initial;
-    position: fixed; Stay in place
-    /* z-index: 1; Sit on top
-    left: 0;
-    top: 0;
-    width: 100%; Full width
-    height: 100%; Full height
-    overflow: auto; Enable scroll if needed
-    background-color: rgb(0,0,0); Fallback color
-    background-color: rgba(143, 143, 143, 0.4); Black w/ opacity
-}
-
-Modal Content/Box
-.modal-content {
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    margin: 15% auto; 15% from the top and centered
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size
-}
-
-.dropbtn {
-    background-color: black;
-    color: white;
-    padding: 5px;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 50%;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-    background-color: green;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    padding: 5px;
-    position: absolute;
-    background-color: white;
-    min-width: 250px;
-    overflow: auto;
-    right: 0;
-    z-index: 1;
-}
-
-.show {
-    display: block;
-}
-
-a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:visited {
-    color:white;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:hover {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-#div1 {
-    float: right;
-    width: 550px;
-    height: 330px;
-}
-
-#div2 {
-    float: right;
-    width: 400px;
-    height: 300px;
-    border:1px solid #aaaaaa;
-}
-
-#div3 {
-    float: right;
-    width: 400px;
-    height: 300px;
-    border:1px solid #aaaaaa;
-}
-
-#div4 {
-    float: right;
-    width: 400px;
-    height: 300px;
-    border:1px solid #aaaaaa;
-}
-*/
