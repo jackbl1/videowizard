@@ -3,9 +3,11 @@
 }
 
 body {
-    background-image: url("../images/backimage2.jpg");
+    background-image: url("../images/backimage2.jpeg");
     color: lightgray;
     size: 12px;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
 
 .logotext{
@@ -66,11 +68,6 @@ body {
 
 .read_more{
     text-decoration: none;
-}
-
-.more_text{
-    visibility: hidden;
-    display: none;
 }
 
 #live-chat {
