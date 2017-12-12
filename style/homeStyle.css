@@ -12,9 +12,10 @@ body {
 
 .logotext{
     color: white;
-    font-size: 24px;
+    font-size: 26px;
+    margin-top: 18px;
     font-family: fantasy;
-    vertical-align: top;
+    float: right;
 }
 
 .titletext{
