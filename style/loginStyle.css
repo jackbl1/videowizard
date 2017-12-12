@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("../images/backimage2.jpeg");
+    background: #003B46;
     color: lightgray;
     size: 12px;
     margin-top: 0 !important;
