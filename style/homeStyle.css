@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("../images/backimage2.jpeg");
+    background: #003B46;
     color: lightgray;
     size: 12px;
     margin-top: 0 !important;
@@ -35,14 +35,14 @@ body {
 }
 
 .toolbarbox{
-    margin-top: 6px;
+    margin-top: 16px;
 }
 
 .recommendedvideosbox{
     margin-top: 36px;
-    background-color: #DCD0C0;
-    border: 2px solid #C0B283;
-    color: black;
+    background-color: #07575B;
+    color: white;
+    font-family: fantasy;
 }
 
 .recommendedvideo{
@@ -111,7 +111,7 @@ a:link {
     font-size: 12px;
 }
 a:visited {
-    color: gray;
+    color: lightgray;
 }
 a:hover {
     color: lightblue;
@@ -146,9 +146,7 @@ select{
 .livechatbox{
     margin-left: 24px;
     margin-top: 24px;
-    background-color: rgb(192, 220, 213);
-    border: 2px solid rgb(131, 168, 192);
-    color: black;
+    color: white;
 }
 
 #live-chat {
@@ -196,7 +194,7 @@ select{
 }
 
 .chat {
-	background: #fff;
+	background: #003B46;
 }
 
 .chat-history {
@@ -234,9 +232,8 @@ select{
     text-align: center;
     margin-top: 24px;
     margin-left: 24px;
-    background-color: rgb(220, 192, 203);
-    border: 2px solid rgb(192, 131, 154);
-    color: black;
+    background: #66A5AD
+    color: white;
 }
 
 /* Style the tab */
@@ -244,6 +241,7 @@ div.tab {
     overflow: hidden;
     border: 1px solid #ccc;
     background-color: #f1f1f1;
+    color: black;
 }
 
 /* Style the buttons inside the tab */
@@ -271,8 +269,7 @@ div.tab button.active {
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
+    color: black;
 }
 
 .darkClass
