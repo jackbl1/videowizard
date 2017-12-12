@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("../images/backimage2.jpeg");
+    background: #003B46;
     color: lightgray;
     size: 12px;
     margin-top: 0 !important;
@@ -36,8 +36,7 @@ body {
 .currentvideobox{
     margin-top: 36px;
     margin-left: 12px;
-    background-color: #DCD0C0;
-    border: 2px solid #C0B283;
+    background-color: #C4DFE6;
     color: black;
 }
 
