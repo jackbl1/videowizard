@@ -16,6 +16,7 @@ body {
 }
 
 .search{
+    width: 600px;
     margin-top: 16px;
     display: block;
     margin: auto;
@@ -64,9 +65,11 @@ body {
 }
 
 .read_more{
-    text-decoration:none;
+    text-decoration: none;
 }
+
 .more_text{
+    visibility: hidden;
     display: none;
 }
 

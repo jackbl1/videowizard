@@ -23,6 +23,7 @@ body {
 }
 
 .search{
+    width: 600px;
     margin-top: 16px;
     display: block;
     margin: auto;
