@@ -33,8 +33,17 @@ body {
 
 .currentvideobox{
     margin-top: 36px;
+    margin-left: 12px;
     background-color: #DCD0C0;
     border: 2px solid #C0B283;
+    color: black;
+}
+
+.relatedvideobox{
+    margin-top: 36px;
+    margin-left: 12px;
+    background-color: rgb(192, 194, 220);
+    border: 2px solid rgb(132, 131, 192);
     color: black;
 }
 
